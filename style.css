@@ -1,0 +1,66 @@
+body
+{
+    background: darkgray;
+    font-family: Nunito;
+}
+.brob h2
+{
+    color: #ea1c2c;
+    font-weight: 200;
+    font-size: 2rem;
+
+}
+.brob p
+{
+    color: #f4f4f4;
+    font-weight: 200;
+    font-size: 1.125rem;
+    line-height: 2.0;
+}
+#mainNavbar
+{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+#mainNavbar .navbar-brand
+{
+    color: #ea1c2c;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+#mainNavbar .nav-link
+{
+    color: white;
+}
+#mainNavbar .nav-link:hover
+{
+    color: #ea1c2c;
+}
+
+#firstBlockHeading span
+{
+    color: #ea1c2c;
+}
+#firstBlockHeading h1
+{
+    font-weight: 200;   
+    font-size:  4rem;
+}
+.content
+{
+    margin-top: 100px;
+}
+.navbar.scrolled
+{
+    background: black;
+     transition: background 200ms;
+}
+@media (max-width:1500px)
+{
+    #firstBlockHeading h1
+    {
+        font-weight: 200;   
+        font-size:  3rem;
+    } 
+}
